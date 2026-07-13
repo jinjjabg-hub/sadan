@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-sans: "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-primary: var(--color-primary, #EC4899);
+  --color-primary-dark: color-mix(in srgb, var(--color-primary, #EC4899), black 15%);
+  --color-stable-bg: #FDFCFB;
+  --color-ink: #1F2937;
+}
+
+@layer base {
+  body {
+    @apply bg-stable-bg text-ink font-sans antialiased;
+  }
+}
+
+.markdown-body {
+  @apply prose prose-slate max-w-none;
+}

@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" width="100%" height="100%">
+  <!-- Background: Soft Cream/Warm Pastel -->
+  <rect width="100%" height="100%" fill="#FAF7F2" />
+  
+  <!-- Subtle background soft glow circles -->
+  <circle cx="150" cy="200" r="180" fill="#FFEFEF" opacity="0.6"/>
+  <circle cx="380" cy="550" r="150" fill="#FFFBEB" opacity="0.6"/>
+
+  <!-- Simple Wooden Stool -->
+  <g stroke="#E5E7EB" stroke-width="4" stroke-linecap="round" fill="none">
+    <line x1="210" y1="520" x2="190" y2="700" stroke="#D1D5DB" stroke-width="6" />
+    <line x1="290" y1="520" x2="310" y2="700" stroke="#D1D5DB" stroke-width="6" />
+    <line x1="250" y1="520" x2="250" y2="700" stroke="#E5E7EB" stroke-width="5" />
+    <!-- Stool rungs -->
+    <line x1="195" y1="620" x2="305" y2="620" stroke="#E5E7EB" stroke-width="4" />
+    <!-- Stool seat shadow & seat -->
+    <ellipse cx="250" cy="520" rx="65" ry="15" fill="#E5E7EB" stroke="none" />
+    <ellipse cx="250" cy="515" rx="65" ry="15" fill="#F3F4F6" stroke="#D1D5DB" stroke-width="3" />
+  </g>
+
+  <!-- Body / Suit Trousers (Pink) -->
+  <!-- Sitting legs -->
+  <path d="M190,515 Q170,590 240,680 Q250,690 270,695 L275,675 Q255,670 215,580 Q210,540 210,515 Z" fill="#F4B5BD" />
+  <path d="M255,515 Q265,580 345,630 L360,610 Q285,560 275,515 Z" fill="#F4B5BD" opacity="0.9"/>
+
+  <!-- Shoes -->
+  <path d="M260,690 Q270,695 285,715 L265,715 Z" fill="#3D1D24" />
+
+  <!-- Torso (Pink Blazer) -->
+  <!-- Back coat body -->
+  <path d="M180,380 L170,480 Q170,540 220,565 L280,560 Q320,530 310,450 L300,380 Z" fill="#EFA2AC" />
+  
+  <!-- White Shirt Inner -->
+  <path d="M220,225 L280,225 L285,320 L250,390 L215,320 Z" fill="#FFFFFF" />
+  <!-- Shirt collar -->
+  <path d="M220,225 L250,265 L225,270 Z" fill="#F3F4F6" />
+  <path d="M280,225 L250,265 L275,270 Z" fill="#F3F4F6" />
+  <line x1="250" y1="265" x2="250" y2="390" stroke="#E5E7EB" stroke-width="2" />
+
+  <!-- Pink Blazer Lapels and Front -->
+  <!-- Left Lapel -->
+  <path d="M210,225 L250,330 L210,335 Z" fill="#F4B5BD" />
+  <path d="M210,335 L250,390 L210,395 Z" fill="#F4B5BD" />
+  <!-- Right Lapel -->
+  <path d="M290,225 L250,330 L290,335 Z" fill="#EFA2AC" />
+  <path d="M290,335 L250,390 L290,395 Z" fill="#EFA2AC" />
+
+  <!-- Blazer Sleeves -->
+  <!-- Left Sleeve (bent, resting on lap) -->
+  <path d="M180,220 Q150,320 220,430 L245,410 Q180,320 205,220 Z" fill="#EFA2AC" />
+  <!-- Left Cuff (White) -->
+  <path d="M220,430 L230,445 L245,435 L235,420 Z" fill="#FFFFFF" />
+  
+  <!-- Right Sleeve (bent, resting on thigh) -->
+  <path d="M305,220 Q335,310 290,440 L265,425 Q305,320 285,220 Z" fill="#EFA2AC" />
+  <!-- Right Cuff (White) -->
+  <path d="M290,440 L280,455 L265,445 L275,430 Z" fill="#FFFFFF" />
+
+  <!-- Hands -->
+  <!-- Left Hand resting on knee -->
+  <path d="M230,445 Q245,465 260,450 L245,435 Z" fill="#FCD34D" opacity="0.5" /> <!-- skin tone -->
+  <!-- Right Hand resting on thigh -->
+  <path d="M280,455 Q270,475 255,460 L265,445 Z" fill="#FCD34D" opacity="0.5" /> <!-- skin tone -->
+
+  <!-- Neck -->
+  <path d="M232,190 L268,190 L265,240 L235,240 Z" fill="#FEE2E2" />
+  <path d="M232,190 Q250,210 268,190 L265,220 Q250,235 235,220 Z" fill="#FCA5A5" opacity="0.3" /> <!-- neck shadow -->
+
+  <!-- Face -->
+  <path d="M215,120 Q215,200 250,200 Q285,200 285,120 Q285,75 250,75 Q215,75 215,120 Z" fill="#FEE2E2" />
+
+  <!-- Cheeks (Blush) -->
+  <ellipse cx="230" cy="155" rx="12" ry="7" fill="#FCA5A5" opacity="0.5" />
+  <ellipse cx="270" cy="155" rx="12" ry="7" fill="#FCA5A5" opacity="0.5" />
+
+  <!-- Eyes -->
+  <ellipse cx="236" cy="138" rx="3.5" ry="2" fill="#1F2937" />
+  <ellipse cx="264" cy="138" rx="3.5" ry="2" fill="#1F2937" />
+  
+  <!-- Eyebrows -->
+  <path d="M228,131 Q236,128 242,132" stroke="#4B5563" stroke-width="2" stroke-linecap="round" fill="none" />
+  <path d="M272,131 Q264,128 258,132" stroke="#4B5563" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  <!-- Round Glasses (Gold/Bronze) -->
+  <circle cx="236" cy="138" r="14" fill="none" stroke="#D97706" stroke-width="2.5" />
+  <circle cx="264" cy="138" r="14" fill="none" stroke="#D97706" stroke-width="2.5" />
+  <!-- Bridge -->
+  <path d="M248,138 Q250,135 252,138" fill="none" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Temples (Sides) -->
+  <path d="M222,138 L217,136" fill="none" stroke="#D97706" stroke-width="2" />
+  <path d="M278,138 L283,136" fill="none" stroke="#D97706" stroke-width="2" />
+
+  <!-- Smile -->
+  <path d="M242,165 Q250,178 258,165" fill="none" stroke="#BE123C" stroke-width="3" stroke-linecap="round" />
+  <!-- Lips line -->
+  <path d="M240,164 Q250,167 260,164" fill="none" stroke="#E11D48" stroke-width="1" />
+
+  <!-- Short Brown Hair with bangs -->
+  <!-- Back Hair -->
+  <path d="M210,120 Q200,160 215,200 Q225,210 218,170 Q215,130 215,120 Z" fill="#582F0E" />
+  <path d="M290,120 Q300,160 285,200 Q275,210 282,170 Q285,130 285,120 Z" fill="#582F0E" />
+  
+  <!-- Main Hair Volume (Top & Sides) -->
+  <path d="M210,120 Q200,60 250,55 Q300,60 290,120 Q292,150 288,180 Q280,185 284,150 Q288,120 280,100 Q250,85 220,100 Q212,120 216,150 Q220,185 212,180 Q208,150 210,120 Z" fill="#7F4F24" />
+  
+  <!-- Bangs (앞머리) -->
+  <path d="M216,105 Q225,125 230,125 Q232,125 228,110 Z" fill="#7F4F24" />
+  <path d="M228,105 Q240,125 245,125 Q248,125 242,110 Z" fill="#7F4F24" />
+  <path d="M242,105 Q250,125 254,125 Q256,125 252,110 Z" fill="#7F4F24" />
+  <path d="M252,105 Q262,125 268,125 Q270,125 264,110 Z" fill="#7F4F24" />
+  <path d="M264,105 Q278,125 284,120 Q282,115 276,105 Z" fill="#7F4F24" />
+
+  <!-- Highlights on Hair -->
+  <path d="M225,75 Q250,68 275,75 Q265,72 235,72 Z" fill="#A68A64" opacity="0.4" />
+</svg>

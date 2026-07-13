@@ -1,0 +1,6 @@
+{
+  "name": "사단법인 마음지키미",
+  "description": "자살예방, 그림책심리상담, 생명존중을 실천하는 사단법인 마음지키미 공식 웹사이트",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
